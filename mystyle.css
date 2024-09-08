@@ -1,0 +1,59 @@
+
+img {
+    width: 370px;
+    height: 370px;
+    border-radius: 20px;
+}
+.bodiu{
+    background-color: hsl(220, 15%, 55%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    height: 680px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,p {
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        width: 20%;
+        height: 20%;
+    }
+    .container {
+        width: 40%;
+        height: 60%;
+        margin: 10%;
+    }
+    h1 {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    }
+    p {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+}
